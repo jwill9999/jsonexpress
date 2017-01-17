@@ -1,0 +1,27 @@
+<div class="container">
+<div class="col-md-8 col-md-offset-2">  
+
+<table class="table">
+   <thead>
+      <tr>
+      <th>Index</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+      </tr>
+    </thead>
+<% for(var i=0; i < results.length; i++) { %>
+    <tbody>
+      <tr>
+      <td><%= (i+1) %></td>
+        <td><%= results[i].firstname %> </td>
+        <td><%= results[i].lastname %></td>
+      </tr>  
+    <tbody>
+    <% } %>
+</table>
+</div>
+
+  
+  
+        
+</div>
